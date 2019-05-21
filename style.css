@@ -1,23 +1,25 @@
-body ul{
+body ul {
     margin: 0px 0px 0px 0px;
     margin-top: 0px;
     padding: 0px;
 }
+
 #headermain {
-width: 100%;
-position: relative;
-margin: 0px 0px 0px 0px;
-z-index: 110;
+    width: 100%;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    z-index: 110;
 }
+
 #header-scroll {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    
     position: fixed;
-    top:0px;
+    top: 0px;
     z-index: 9999;
 }
+
 .header {
     margin: 0px;
     padding: 0px 0px;
@@ -29,6 +31,7 @@ z-index: 110;
     justify-content: space-around;
     background: white;
 }
+
 .logo {
     margin: 0px;
     padding: 18px;
@@ -36,28 +39,34 @@ z-index: 110;
     border-radius: 35px;
     font-weight: bold;
 }
+
 .menu nav {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
-.menu nav ul{
+
+.menu nav ul {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
+
 .menu nav ul li {
     display: flex;
     flex-wrap: wrap;
     padding: 10px 15px;
     text-decoration: none;
 }
-nav ul a li{
+
+nav ul a li {
     align-items: center;
 }
+
 li {
     list-style: none;
-    padding: 10px; 
+    padding: 10px;
 }
-a{
+
+a {
     text-decoration: none;
     margin: 10px;
     padding: 10px;
@@ -68,26 +77,29 @@ a{
     text-align: center;
     justify-content: space-around;
 }
-a:hover{
+
+a:hover {
     color: red;
     border-bottom: 3px solid red;
 }
+
 @media(max-width:920px) {
-    .header ul{
+    .header ul {
         max-width: 100%;
     }
-    .header ul a li,.logo{
+    .header ul a li,
+    .logo {
         width: 100%;
         text-align: center;
     }
-    .header ul a li{
+    .header ul a li {
         width: 100%;
         text-align: center;
     }
 }
 
 .learn {
-    margin: 0px 115px 0px 0px;
+    /* margin: 0px 115px 0px 0px; */
     padding: 15px;
     max-width: 100%;
     display: flex;
@@ -104,21 +116,25 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
 }
+
 .test {
-    margin: 0px;
     padding: 15px;
     max-width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 3px solid blue;
-    justify-content: space-around
+    justify-content: space-around;
 }
+
 .t-h1 {
     background: yellow;
     padding: 15px;
     border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .new {
     margin: 0px;
     padding: 15px;
@@ -129,11 +145,13 @@ a:hover{
     border-bottom: 3px solid blue;
     justify-content: space-around;
 }
+
 .n-h1 {
     background: yellow;
     padding: 15px;
     border-radius: 50px;
 }
+
 .blog {
     margin: 0px;
     padding: 15px;
@@ -144,11 +162,13 @@ a:hover{
     border-bottom: 3px solid blue;
     justify-content: space-around;
 }
+
 .b-h1 {
     background: yellow;
     padding: 15px;
     border-radius: 30px;
 }
+
 .contacts {
     margin: 0px;
     padding: 15px;
@@ -159,11 +179,13 @@ a:hover{
     align-items: center;
     justify-content: space-around;
 }
+
 .c-h1 {
     background: yellow;
     padding: 15px;
     border-radius: 50px;
 }
+
 .about-us {
     margin: 0px;
     padding: 15px;
@@ -174,10 +196,9 @@ a:hover{
     align-items: center;
     justify-content: space-around;
 }
+
 .a-h1 {
     background: yellow;
     padding: 15px;
     border-radius: 50px;
 }
-
-
